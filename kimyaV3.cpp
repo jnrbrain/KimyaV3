@@ -18,6 +18,16 @@ int main()
     cin>>mol;
     if(strcmp(atom1,"H")==0||strcmp(atom1,"h")==0)
         akutle1=1;
+    else if(strcmp(atom1,"Li")==0||strcmp(atom1,"li")==0)
+        akutle1=7;
+    else if(strcmp(atom1,"Be")==0||strcmp(atom1,"be")==0)
+        akutle1=9;
+    else if(strcmp(atom1,"B")==0||strcmp(atom1,"b")==0)
+        akutle1=10;
+    else if(strcmp(atom1,"Na")==0||strcmp(atom1,"na")==0)
+        akutle1=23;
+    else if(strcmp(atom1,"Mg")==0||strcmp(atom1,"mg")==0)
+        akutle1=24;
     else if(strcmp(atom1,"C")==0||strcmp(atom1,"c")==0)
         akutle1=12;
     else if(strcmp(atom1,"N")==0||strcmp(atom1,"n")==0)
@@ -34,6 +44,16 @@ int main()
         akutle1=35;
     if(strcmp(atom2,"H")==0||strcmp(atom2,"h")==0)
         akutle2=1;
+    else if(strcmp(atom2,"Li")==0||strcmp(atom2,"li")==0)
+        akutle1=7;
+    else if(strcmp(atom2,"Be")==0||strcmp(atom2,"be")==0)
+        akutle1=9;
+    else if(strcmp(atom2,"B")==0||strcmp(atom2,"b")==0)
+        akutle1=10;
+    else if(strcmp(atom2,"Na")==0||strcmp(atom2,"na")==0)
+        akutle1=23;
+    else if(strcmp(atom2,"Mg")==0||strcmp(atom2,"mg")==0)
+        akutle1=24;
     else if(strcmp(atom2,"C")==0||strcmp(atom2,"c")==0)
         akutle2=12;
     else if(strcmp(atom2,"N")==0||strcmp(atom2,"n")==0)
